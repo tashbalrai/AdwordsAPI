@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+"
+    codebase="http://google-api-adwords-java.googlecode.com/files/">
+  <information>
+    <title>Sandbox Account Viewer</title>
+    <vendor>Google</vendor>
+    <homepage
+        href="http://code.google.com/p/google-api-adwords-java/wiki/SandboxAccountViewer" />
+    <description>
+      A simple application to view the contents of your AdWords API sandbox
+      account.
+    </description>
+  </information>
+  <security>
+    <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.5+" />
+    <jar href="sandbox-account-viewer-1.3.0.jar"/>
+  </resources>
+  <application-desc
+      main-class="com.google.api.adwords.sandboxaccountviewer.Launcher" />
+</jnlp>
